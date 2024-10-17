@@ -215,7 +215,7 @@ keep_files:
   - .nojekyll
   - .git
 
-# Plug-ins
+# Plug-ins #removed "jekyll-diagrames" 241017
 plugins:
   - jekyll-archives
   - jekyll-email-protect
@@ -342,9 +342,11 @@ imagemagick:
     webp: "-resize 800x"
 
 
-jekyll-diagrams:
+#jekyll-diagrams:
     # configuration, see https://github.com/zhustec/jekyll-diagrams.
     # feel free to comment out this section if not using jekyll diagrams.
+#removed this as it seems to now break docker - take care if trying to re-enable
+#removed in Gemfile and plugins too 
 
 
 # -----------------------------------------------------------------------------
