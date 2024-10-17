@@ -2,22 +2,21 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: HOLDEN LAB @ WARWICK # the website title (if blank, full name will be used instead)
-first_name: Séamus
+title: Elongasome sLOLA Project # the website title (if blank, full name will be used instead)
+first_name: 
 middle_name:
-last_name: Holden
+last_name: 
 email: seamus.holden@warwick.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Website of the Holden Lab at the University of Warwick, UK. We are interdisciplinary scientists who study bacterial cell biology and biophysics using super-resolution microscopy and other advanced imaging methods.
+  Website of the Elongasome sLOLA project. We are multi-disciplinary consortium of scientists who are working to understand the molecular basis of synthesis of the construction of the bacterial cell wall by the elongasome protein complex.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Holden, microscopy, bacteriology, academic-website  # add your own keywords or leave empty
+keywords: sLOLA, cell-wall, bacteriology, academic-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: lab-mascot.svg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-#icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-url: https://holdenlab.github.io/ # the base hostname & protocol for your site
+icon: 🦠  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+url: https://elongasome.github.io/ # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -70,16 +69,16 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: holdenlab # your GitHub user name
+github_username:  # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: seamus_holden # your Twitter handle
-mastodon_username:  mstdn.science/@seamus_holden # your mastodon instance+username in the format instance.tld/@username
+twitter_username:  # your Twitter handle
+mastodon_username:  # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
-scholar_userid: JFC4oaAAAAAJ # your Google Scholar ID
+scholar_userid:  # your Google Scholar ID
 telegram_username: # your Telegram user name
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: 0000-0002-7169-907X # your ORCID ID
+orcid_id:  # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
