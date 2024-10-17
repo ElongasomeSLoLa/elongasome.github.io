@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Elongasome sLOLA Project # the website title (if blank, full name will be used instead)
+title: ELONGASOME SLOLA # the website title (if blank, full name will be used instead)
 first_name: 
 middle_name:
 last_name: 
-email: seamus.holden@warwick.ac.uk
+email: david.roper@warwick.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Website of the Elongasome sLOLA project. We are multi-disciplinary consortium of scientists who are working to understand the molecular basis of synthesis of the construction of the bacterial cell wall by the elongasome protein complex.
 footer_text: >
