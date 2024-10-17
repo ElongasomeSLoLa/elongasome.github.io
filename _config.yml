@@ -218,7 +218,6 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-archives
-  - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -342,9 +341,6 @@ imagemagick:
   output_formats:
     webp: "-resize 800x"
 
-# -----------------------------------------------------------------------------
-# Jekyll Diagrams
-# -----------------------------------------------------------------------------
 
 jekyll-diagrams:
     # configuration, see https://github.com/zhustec/jekyll-diagrams.
