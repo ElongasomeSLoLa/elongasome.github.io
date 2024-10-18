@@ -4,8 +4,8 @@ title: People
 permalink: /people/
 description: 
 nav: true
-nav_order: 2
-display_categories: [current, alumni]
+nav_order: 3
+display_categories: [pis, postdocs, phds, affiliated]
 horizontal: false
 ---
 
