@@ -5,35 +5,40 @@ permalink: /
 
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 
+<!-- 
+Disable slideshow for now until we have some photos
+Uncomment to reenable slideshow
 <div class="row">
     <div class="Slideshow" style="margin-bottom:1cm;">
         <img class="mySlides" src="/assets/img/BannerPhotos/240119_LabPhotoCrop.JPG" style="width:100%;border-radius:5px;">
         <img class="mySlides" src="/assets/img/BannerPhotos/STORM B sub cell wall crop.png" style="width:100%;border-radius:5px;">
         <img class="mySlides" src="/assets/img/BannerPhotos/ExcitationModuleCrop.png" style="width:100%;border-radius:5px;">
     </div>
+</div> 
+-->
+<div class="row">
+	{% include figure.html path="assets/img/BannerPhotos/STORM B sub cell wall crop.png" class="img-fluid rounded z-depth-1" %}
 </div>
 
+Welcome to the Elongasome sLOLA project website!
 
-Welcome to the Holden Lab website! 
+We are multi-disciplinary consortium of scientists working to understand the molecular basis of  bacterial cell wall synthesis by the elongasome protein complex. 
 
-We are interdisciplinary scientists who study bacterial cell biology and biophysics using super-resolution microscopy and other advanced imaging methods. Our primary biological focus is how bacteria remodel their cell wall, which is one of the most important targets​ for antibiotics. 
+The elongasome is a protein complex that builds the cell wall of rod-shaped bacteria. This protein complex is a major antibiotic target and is found in many bacteria, including major pathogens such as *Eschericia coli* and *Pseudomonas aeruginosa*.
 
-We are based in the <a href="https://warwick.ac.uk/services/estates/news/ibrb_opening/">Interdisciplinary Biosciences Research Building</a>, in the 
-<a href="https://warwick.ac.uk/fac/sci/lifesci/">School of Life Sciences</a>, University of Warwick, near Coventry, UK. 
+This project is funded by the UK Biotechnology and Biological Sciences Research Council *Strategic Longer and Larger (sLOLA)* initiative.
 
 
-Key research themes:
 
-- Mechanistic principles of bacterial cell wall remodelling
-- Single molecule & super-resolution microscopy
-- Open source scientific software and hardware
-
+<!-- 
+Disable slideshow for now until we have some photos
+Uncomment to reenable slideshow
 <script>
     var myIndex = 0;
     carousel();
@@ -49,4 +54,5 @@ Key research themes:
         x[myIndex-1].style.display = "block";  
         setTimeout(carousel, 4000); // Change image every 2 seconds
     }
-</script>
+</script> 
+-->
