@@ -1,0 +1,1 @@
+Please crop all photos to be added to the front page slide show to 1980x1080
