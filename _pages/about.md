@@ -10,20 +10,30 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
+<div class="row">
+	{% include video.html path="assets/video/elongasome-0001-0200.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true muted=true width=100 %}	
+</div>
 
-<!-- 
-Disable slideshow for now until we have some photos
-Uncomment to reenable slideshow
 <div class="row">
-    <div class="Slideshow" style="margin-bottom:1cm;">
-        <img class="mySlides" src="/assets/img/BannerPhotos/240119_LabPhotoCrop.JPG" style="width:100%;border-radius:5px;">
-        <img class="mySlides" src="/assets/img/BannerPhotos/STORM B sub cell wall crop.png" style="width:100%;border-radius:5px;">
-        <img class="mySlides" src="/assets/img/BannerPhotos/ExcitationModuleCrop.png" style="width:100%;border-radius:5px;">
+	<video style="width:100%" src="assets/video/elongasome-0001-0200.mp4" controls="" width="100%"></video>
+</div>
+
+
+<div class="row">
+	<video style="width:100%" src="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" controls="" width="100%"></video>
+</div>
+
+<div class="row">
+	{% include video.html path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=false autoplay=true loop=true muted=true %}
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.html path="assets/video/elongasome-0001-0200.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true width=100 %}
     </div>
-</div> 
--->
-<div class="row">
-	{% include figure.html path="assets/img/BannerPhotos/STORM B sub cell wall crop.png" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.html path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
 </div>
 
 Welcome to the Elongasome sLOLA project website!
