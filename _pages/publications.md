@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 2
 ---
-Papers listed here include recent papers relevant to elongasome research by members of the elongasome sLOLA team
+Recent elongasome research papers published by members of the sLOLA team.
 
 
 

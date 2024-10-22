@@ -5,7 +5,7 @@ permalink: /people/
 description: 
 nav: true
 nav_order: 3
-display_categories: [pis, postdocs, phds, affiliated]
+display_categories: [PIs, postdocs, phds, affiliated]
 horizontal: false
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Nic Briggs
 description: Post-doc, Roper lab
 img: assets/img/people/nic_briggs.jpg
-importance: 5
+importance: 0
 category: postdocs
 redirect: 
 ---
