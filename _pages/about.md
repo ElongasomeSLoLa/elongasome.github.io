@@ -10,21 +10,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-
-<!-- 
-Disable slideshow for now until we have some photos
-Uncomment to reenable slideshow
 <div class="row">
-    <div class="Slideshow" style="margin-bottom:1cm;">
-        <img class="mySlides" src="/assets/img/BannerPhotos/240119_LabPhotoCrop.JPG" style="width:100%;border-radius:5px;">
-        <img class="mySlides" src="/assets/img/BannerPhotos/STORM B sub cell wall crop.png" style="width:100%;border-radius:5px;">
-        <img class="mySlides" src="/assets/img/BannerPhotos/ExcitationModuleCrop.png" style="width:100%;border-radius:5px;">
-    </div>
+	<div class="Slideshow" style="margin-bottom:1cm;">
+		{% include figure.html path="assets/img/BannerPhotos/elongasome_cover_white.png" class="mySlides img-fluid rounded z-depth-1" %}
+		{% include figure.html path="assets/img/BannerPhotos/STORM_Bsub_cell_wall_crop.jpg" class="mySlides img-fluid rounded z-depth-1" %}
+	</div>	
 </div> 
--->
-<div class="row">
-	{% include figure.html path="assets/img/BannerPhotos/STORM B sub cell wall crop.png" class="img-fluid rounded z-depth-1" %}
-</div>
+
 
 Welcome to the Elongasome sLOLA project website!
 
@@ -35,10 +27,6 @@ The elongasome is a protein complex that builds the cell wall of rod-shaped bact
 This project is funded by the UK Biotechnology and Biological Sciences Research Council *Strategic Longer and Larger (sLOLA)* initiative.
 
 
-
-<!-- 
-Disable slideshow for now until we have some photos
-Uncomment to reenable slideshow
 <script>
     var myIndex = 0;
     carousel();
@@ -55,4 +43,3 @@ Uncomment to reenable slideshow
         setTimeout(carousel, 4000); // Change image every 2 seconds
     }
 </script> 
--->
